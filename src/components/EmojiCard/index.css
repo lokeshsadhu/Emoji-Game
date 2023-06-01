@@ -1,0 +1,17 @@
+.emoji-item {
+  width: 32%;
+  list-style-type: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.emoji-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 24px;
+}
+.emoji-icon {
+  width: 100px;
+}

@@ -1,0 +1,64 @@
+.win-or-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 24px;
+  margin: auto;
+  padding: 32px;
+}
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.game-status {
+  color: white;
+  font-family: roboto;
+  font-size: 63px;
+  font-weight: bold;
+}
+.current-score-label {
+  text-align: center;
+  color: white;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+.current-score-value {
+  text-align: center;
+  color: #6a59ff;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+.play-again-section {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+.win-or-loss-image {
+  width: 350px;
+  height: 450px;
+}
